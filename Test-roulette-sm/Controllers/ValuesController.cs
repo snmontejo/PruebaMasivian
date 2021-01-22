@@ -20,6 +20,7 @@ namespace Test_roulette_sm.Controllers
         public string Get(int id)
         {
             return "value";
+            //
         }
 
         // POST api/values
