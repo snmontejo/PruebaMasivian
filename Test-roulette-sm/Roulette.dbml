@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="RULETA" Class="RouletteDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=localhost,1433;Initial Catalog=RULETA;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="RULETAConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Roulette" Member="Roulette">
+    <Type Name="Roulette">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="isOpen" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="dateOpen" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="dateClose" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.bets" Member="bets">
+    <Type Name="bets">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_roulette" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="user_" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="money" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.winningNumbers" Member="winningNumbers">
+    <Type Name="winningNumbers">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="number" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="id_roulette" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

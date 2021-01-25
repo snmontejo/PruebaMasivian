@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Roulette">
+  <DataContextMoniker Name="/RouletteDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9f7a2322-73d8-4146-a50e-b9473931aeb0" absoluteBounds="4.25, 1, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/RouletteDataContext/Roulette" />
+      <nestedChildShapes>
+        <elementListCompartment Id="573293b7-f459-4dc3-9fc5-80cd132034d7" absoluteBounds="4.265, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26ff8eb9-666f-4f0f-a1a4-3b08a6e9be21" absoluteBounds="1.875, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/RouletteDataContext/bets" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92246097-c0d9-4e98-95bd-dfc96418e8f3" absoluteBounds="1.8899999999999997, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="171b8e05-9847-4445-ac78-994fd4dbf70c" absoluteBounds="4.5, 3.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/RouletteDataContext/winningNumbers" />
+      <nestedChildShapes>
+        <elementListCompartment Id="64fa3d4d-2503-4f4e-92f1-2a950903bdf4" absoluteBounds="4.515, 3.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
